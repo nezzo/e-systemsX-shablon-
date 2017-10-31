@@ -1,0 +1,27 @@
+@media (max-width: 1200px){
+	.head-menu li{
+		margin-right:10px !important; 
+	}
+	.slides .right-letter, .slides .left-letter{
+		display: none;
+	}
+	.login-menu li a{
+		margin-right: 10px;
+	}
+	.r{
+		margin-left: 25px !important;
+	}
+	.l{
+		margin-right: 25px !important;
+	}
+}
+@media (max-width: 991px){
+	.green-block{
+		width: 740px !important;
+		height: 383px !important;
+		
+	}
+	.know-cost-out-service{
+		display: none;
+	}
+}

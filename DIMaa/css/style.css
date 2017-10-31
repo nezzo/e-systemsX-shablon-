@@ -1,0 +1,718 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+@font-face {
+    font-family: "Play-Regular";
+    src: url(../fonts/Play-Regular.ttf);
+}
+
+@font-face {
+    font-family: "NeoSansProRegular";
+    src: url(../fonts/NeoSansProRegular/NeoSansProRegular.ttf);
+}
+
+@font-face {
+    font-family: "NeoSansProBold";
+    src: url(../fonts/NeoSansProBold/NeoSansProBold.ttf);
+}
+.right-text{
+    text-align: right;
+}
+.clear{
+    clear: both;
+}
+.header{
+    background: #636363;
+    margin-bottom: 20px;
+}
+
+.nav-center{
+    overflow: hidden;
+    margin: 0 auto;
+}
+.head-menu li{
+    margin-right: 40px;
+}
+.head-menu li a{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.poland-biznes{
+    position: relative;
+}
+.top-list{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    list-style: none;
+
+}
+.top-list li{
+    list-style-image: url(../img/)
+}
+.top-list li a{
+    color: #fff;
+    font-size: 20px;
+    font-family: "NeoSansProBold", sans-serif;
+}
+.video-center{
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 100px;
+}
+.img-logo-head{
+
+}
+.back-moneys-losted{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #636363;
+    font-family: "NeoSansProRegular", sans-serif;
+}
+.number-header p:first-child{
+    font-size: 18px;
+    margin: 0;
+}
+.number-header h4{
+    font-size: 28px;
+    font-family: "OpenSans", sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+.number-header p:nth-child(3){
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+
+.poland-biznes{
+    background: url(../img/poland.png) no-repeat;
+    min-height: 686px;
+    background-size: cover;
+}
+
+
+/*Broker Depozit*/
+.broker-depozit{
+    background: #333;
+}
+.broker-depozit h1{
+    font-size: 57px;
+    text-align: center;
+    text-transform: uppercase;
+    color:#fff;
+}
+.help-back_100{
+    font-size: 27px;
+    color:#fff;
+    text-align: center;
+}
+
+/*Greeen block*/
+.green-block{
+    width: 950px;
+    height: 300px;
+    background: #26bd26;
+    margin: 0 auto;
+}
+
+.get-free-consultation h3{
+    font-size: 27px;
+    text-transform: uppercase;
+    color:#fff;
+    text-align: center;
+}
+.get-free-consultation p{
+    color:#fff;
+    font-size: 18px;
+}
+.form-group{
+    width:70%;
+    margin: 10px auto;
+}
+.form-consultation input{
+    height: 40px;
+}
+.how-to-back{
+    width:360px;
+    height: 50px;
+    background: #fa6a00;
+    color:#fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    border:1px solid #fa6a00;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.7)
+}
+
+
+/*More people*/
+.more-people h5{
+    font-size: 30px;
+}
+.left-photo_text {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.img-left-photo{
+    width:65px;
+    float: left;
+    display: inline-block;
+}
+.left-photo_text p{
+    float: left;
+    width: 85%;
+}
+
+
+/*Chanse more*/
+.chanse-back-money h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: "NeoSansProBold", sans-serif;
+    text-transform: uppercase;
+}
+.circle-eight{
+    position: relative;
+    width: 502px;
+    margin: 0 auto;
+}
+
+.circle-eight h2{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+.circle-eight p{
+    width: 374px;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    font-size: 28px;
+}
+
+
+/*Programme chargeback*/
+.programm-chargeback{
+    background: url(../img/img-img.png) no-repeat;
+    background-size: cover;
+    padding: 30px 0 20px;
+    color: #fff;
+}
+.true-programme-block img{
+    float: left;
+    padding-right: 15px;
+}
+.true-programme-block:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.true-programme-block{
+    margin-bottom: 20px;
+
+}
+
+
+
+.begin-back-your-money{
+    background: url(../img/img-img1.png) no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 70px 0 30px;
+}
+
+/*How we will back your money?*/
+.block:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*Know cost of our service*/
+.know-cost-out-service{
+    background: #6ade6a;
+    padding-bottom: 20px;
+}
+.know-cost-out-service h1{
+    font-size: 60px;
+    text-align: center;
+    color:#fff;
+    font-family: "NeoSansProBold", sans-serif;
+}
+
+
+/*Table as table*/
+.index-table{
+    width: 100%;
+
+}
+.index-table tr th{
+    text-align: center;
+}
+.index-table tr th:first-child{
+    background: #6ade6a
+}
+.index-table tr{
+    height: 60px;
+    background: #fff;
+    border:1px solid #6ade6a;
+    text-align: center;
+    font-size: 22.24px;
+    font-family: "NeoSansProBold", sans-serif;
+}
+.index-table tr td:first-child{
+    width:30%;
+    background: #6ade6a;
+    color:#000;
+}
+.index-table tr td, .index-table tr th{
+    border-right: 7px solid #6ade6a;
+}
+.index-table .know-cost-with{
+    background: #ff8100;
+    color: #fff;
+    border:1px solid #ff8100;
+    border-radius: 15px;
+}
+
+
+
+/*Why*/
+.lapma{
+    width:300px;
+}
+.you-can h3{
+    font-size: 32.89px;
+    font-family: "NeoSansProBold", sans-serif;
+    margin-bottom: 30px;
+}
+.you-can p{
+    font-size: 19px;
+    font-family: "NeoSansProBold", sans-serif;
+    margin-bottom: 10px;
+}
+
+.reasons-trust-backmoney{
+    background: #6ade6a;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.reasons-trust-backmoney h1{
+    text-align: center;
+    font-size: 37px;
+    font-family: "NeoSansProBold", sans-serif;
+    color: #fff;
+    margin-bottom: 80px;
+}
+.reasons-trust-backmoney h4{
+    height: 70px;
+    color: #fff;
+    font-family: "NeoSansProBold", sans-serif;
+}
+
+.reasons-trust-backmoney p{
+    font-size: 14px;
+    color:#fff;
+}
+.how-works-backmoney{
+    margin-bottom: 40px;
+}
+.short-about-company h3{
+    font-size: 27.9px;
+    font-family: "NeoSansProBold", sans-serif;
+    margin-bottom: 20px;
+}
+.short-about-company p{
+    font-size: 18.07px;
+    font-family: "NeoSansProBold", sans-serif;
+    margin-bottom: 10px;
+    padding: 20px 0 20px;
+}
+.images-right img:nth-child(2){
+    position: relative;
+    top: -45px;
+    left: -25px;
+}
+.images-right img:last-child{
+    position: relative;
+    top: -80px;
+}
+
+/*How works money back*/
+.ramka-img{
+    background: #6ade6a;
+    height: 270px;
+    margin-bottom: 30px;
+}
+.ramka-img p{
+    color: #fff;
+    padding: 10px 5px 10px 5px;
+}
+.get-free-consultation-b{
+    width:auto;
+    height: 60px;
+    color:#fff;
+    background: #ff8100;
+    border:1px solid #ff8100;
+    text-transform: uppercase;
+    font-family: "NeoSansProBold", sans-serif;
+    padding: 5px 15px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+}
+
+.slider{
+    position: relative;
+}
+.slider a:first-child{
+   position: absolute;
+   left: 0;
+   top: 50%;
+   z-index: 9999;   
+}
+.slider a:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 9999;
+}
+.slides{
+    width:92%;
+    height: 400px;
+    margin: 0 auto;
+}
+.slides > div{
+    display: inline-block;
+}
+.slides .left-letter{
+    vertical-align: bottom;
+    background: #6ade6a;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.slides .right-letter{
+    vertical-align: top;
+    background: #6ade6a;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.left-letter h4{
+    font-size: 22.5px;
+    font-family: "NeoSansProBold", sans-serif
+}
+.left-letter p{
+    font-size: 15px;
+    font-family: "NeoSansProBold", sans-serif;
+}
+.right-letter p{
+    font-size: 29px;
+    font-family: "NeoSansProBold", sans-serif;
+    text-align:center;
+}
+.want-too{
+    width: 220px;
+    height: 50px;
+    background: #ff8100;
+    border:1px solid #ff8100;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+    font-size: 29px;
+    font-family: "NeoSansProBold", sans-serif;
+    padding: 3px 8px;
+}
+
+
+
+/*first footer*/
+.footer-contacts{
+    background: url(../img/operator.png) no-repeat;
+    background-size: cover;
+    min-height: 555px;
+    box-sizing: border-box;
+}
+.capcha{
+    width: 250px;
+    height: 75px;
+    border:1px solid red;
+    display: inline-block;
+}
+.get-answer-bottom{
+    width:230px;
+    height: auto;
+    border:1px solid #ff8100;
+    background: #ff8100;
+    color:#fff;
+    font-family: "NeoSansProBold", sans-serif;
+    font-size: 25px;
+    border-radius: 35px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.8);
+    text-transform: uppercase;
+    display: inline-block;
+}
+.bottom-input{
+    padding-top: 40px;
+}
+.bottom-input .form-group input{
+    width:300px;
+    height: 45px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    border:1px solid #333;
+}
+.bottom-input .form-group textarea{
+    width:400px;
+    height: 150px;
+    border-radius: 30px;
+    border:1px solid #333;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.getanswer >div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer{
+    width:100%;
+    height: 234px;
+    background: #828382;
+}
+.footer .row div:first-child{
+    color: #fff;
+}
+.footer .row div:first-child p:first-child{
+    font-family: "NeoSansProBold", sans-serif;
+    font-size: 16px;
+}
+.footer .row div:first-child h4{
+    font-size: 23px;
+    font-family: "NeoSansProBold", sans-serif;
+}
+.footer .row > div{
+    padding-top: 30px;
+}
+.footer-right-text{
+    text-align: right;
+}
+.footer-right-text p{
+    color:#fff;
+    font-family: "NeoSansProBold", sans-serif;
+    font-size: 16px;
+}
+.footer-logo{
+    margin-top: 40px;
+}
+
+
+
+
+/*Login*/
+
+
+/*Login*/
+#wrapper-login{
+    background: url(../img/login-login.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.login-menu li a{
+    font-size: 16px;
+    text-transform: uppercase;
+    color:#fff;
+    margin-right: 40px;
+}
+.top-grey{
+    width: 100%;
+    height: 50px;
+    background: #636363;
+}
+.login-form{
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px 0px;
+}
+.register{
+    background: #d32f2f;
+    color:#fff;
+    text-transform: uppercase;
+    border:1px solid #d32f2f;
+}
+.login{
+    background: #6ade6a;
+    color:#fff;
+    border: 1px solid #6ade6a;
+    text-transform: uppercase;
+}
+.login-form input{
+    height: 45px;
+    border-radius: 5px;
+    color:#fff;
+    margin-bottom: 15px;
+}
+.opacity input{
+    background: none;
+    border:2px solid #fff;
+}
+
+
+
+/*Profile*/
+#wrapper-profile{
+    background: url(../img/profile.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.left-logo img{
+    display: inline-block;
+}
+.left-logo h3{
+    display: inline-block;
+    font-size: 24px;
+    color: #fff;
+    font-family: "NeoSansProBold", sans-serif;
+    position: relative;
+    top: 5px;
+}
+.right-logo{
+    float: right;
+    padding-top: 13px;
+}
+.right-logo img{
+    width: 300px;
+    margin-right: 20px;
+}
+.right-logo p{
+    display: inline-block;
+    font-size: 20px;
+    font-family: "NeoSansProBold", sans-serif;
+    color:#fff;
+}
+.margin-bottom{
+    margin-bottom: 40px;
+}
+.table tr td, .table tr th{
+    color:#fff;
+}
+.l{
+    float: left;
+    margin-right: 50px;
+}
+.buttons-profile p{
+    text-align: center;
+    color:#fff;
+    font-size: 16px;
+    font-family: "OpenSansBold", sans-serif;
+    font-weight: bold;
+}
+.back-to-cabinet{
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #f06316;
+}
+.table-box-profile{
+    height: 350px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom: 30px;
+}
+.r{
+    float: right;
+    margin-right: 0;
+    margin-left: 50px;
+}
+.back-to-cabinet{
+    margin-top: 40px;
+}
+
+
+
+/*Order Zayavki*/
+.order_zayavki input[type="text"]{
+    border: 3px solid #6ade6a;
+}
+.order_zayavki input[type="submit"]{
+    height: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/*Cabinet*/
+.center-cabinet{
+    width:900px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.center-cabinet >div{
+}
+.center-cabinet > div p{
+    text-align: center;
+}
+.center-cabinet >div h4{
+     color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.center-cabinet{
+    margin-bottom: 100px;
+}
+.cabinet-footer{
+    height: 170px;
+    background: #5c5c5c;
+    position: absolute;
+    width: 100%;
+    bottom:0px;
+    left: 0;
+}
+.cabinet{
+    position: relative;
+}
+.cabinet-footer>div:first-child h4{
+    color:#fff;
+    padding-top: 20px;
+}
+.cabinet-footer >div:last-child h4{
+    color:#fff;
+    text-align: right;
+}
+.icons-cabinet{
+    text-align: right;
+    padding-top: 20px;
+}
+.icons-cabinet i{
+    color:#fff;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+/*Register*/
+.register-form input{
+    height: 40px;
+    border: 2px solid #6ade6a;
+}
