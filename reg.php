@@ -21,6 +21,6 @@ Template Name: Шаблон страницы "Регистрация клиен�
   				</div>
   			</div>
   		</nav>
-  		<?php echo  custom_registration_function();?>
+  		<?=custom_registration_function();?>
   	</div>
 <?php get_footer();?>

@@ -35,6 +35,22 @@ body{
      color:red;
 }
 
+
+.reg-form-login {
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px 0px;
+}
+
+.reg-form-login input {
+    height: 45px;
+    border-radius: 5px;
+    /* color: #fff; */
+    margin-bottom: 15px;
+}
+
+
 .right-text{
     text-align: right;
 }
@@ -161,7 +177,7 @@ body{
 }
 .how-to-back{
     width:360px;
-    height: 50px;
+    height: 50px !important;
     background: #fa6a00;
     color:#fff;
     font-size: 17px;

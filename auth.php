@@ -19,20 +19,13 @@ Template Name: Шаблон страницы "Авторизации"
   				</div>
   			</div>
   		</nav>
-  		<form action="" class="login-form">
-  			<div class="form-group opacity">
-  				<input type="text" class="form-control" placeholder="Эл.почта">
-  			</div>
-  			<div class="form-group opacity">
-  				<input type="text" class="form-control" placeholder="Пароль">
-  			</div>
-  			<div class="form-group">
-  				<input type="button" class="form-control login" value="Войти">
-  			</div>
-  			<div class="form-group">
-  			<input type="button" class="form-control register" value="Регистрация">
-  			</div>
-  		</form>  	
+  		<?=authClient();?>
+  		
+  		<form action="/reg/" class="reg-form-login">
+		  <div class="form-group">
+		    <input type="submit" class="form-control register" value="Регистрация">
+		  </div>
+  		</form>
   	</div>
 
 <?php get_footer();?>

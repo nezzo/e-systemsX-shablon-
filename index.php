@@ -81,20 +81,7 @@
                </p>
              </div>
              <div class="col-lg-6 col-md-6">
-               <form action="" class="form-consultation">
-                 <div class="form-group">
-                   <input type="text" class="form-control" placeholder="Ваш емаил (для отправки презентации)">
-                 </div>
-                 <div class="form-group">
-                   <input type="text" class="form-control" placeholder="Ваш телефон (для оказание консультации)">
-                 </div>
-                 <div class="form-group">
-                   <div class="g-recaptcha" data-sitekey="6Leu-TUUAAAAAJDBfWVG3ARyrfoN62T0TudkptLp"></div>
-                 </div>
-                 <div class="form-group">
-                   <button class="btn btn-danger how-to-back">Узнать, как вернуть ваши деньги</button>
-                 </div>
-               </form>
+               <?=consultant_form_1();?>
              </div>
            </div>
          </div>
@@ -271,20 +258,7 @@
    <div class="container">
      <div class="row">
        <div class="col-lg-6 col-md-6">
-        <form action="" class="form-consultation">
-         <div class="form-group">
-           <input type="text" class="form-control" placeholder="Ваш емаил (для отправки презентации)">
-         </div>
-         <div class="form-group">
-           <input type="text" class="form-control" placeholder="Ваш телефон (для оказание консультации)">
-         </div>
-         <div class="form-group">
-           <div class="g-recaptcha" data-sitekey="6Leu-TUUAAAAAJDBfWVG3ARyrfoN62T0TudkptLp"></div>
-         </div>
-         <div class="form-group">
-           <button class="btn btn-danger how-to-back">Узнать, как вернуть ваши деньги</button>
-         </div>
-       </form>
+        <?=consultant_form_2();?>
      </div>
      <div class="col-lg-6 col-md-6">
        <h3>
@@ -490,11 +464,11 @@
           <td>
 
           </td>
-          <td><button class="know-cost-with">Узнайте стоимость со скидкой</button></td>
-          <td><button class="know-cost-with">Узнайте стоимость со скидкой</button></td>
-          <td><button class="know-cost-with">Узнайте стоимость со скидкой</button></td>
-          <td><button class="know-cost-with">Узнайте стоимость со скидкой</button></td>
-          <td><button class="know-cost-with">Узнайте стоимость со скидкой</button></td>
+	  <td><form method="get" action="/reg"><button type="submit" class="know-cost-with">Узнайте стоимость со скидкой</button></form></td>
+ 	  <td><form method="get" action="/reg"><button type="submit" class="know-cost-with">Узнайте стоимость со скидкой</button></form></td>
+	  <td><form method="get" action="/reg"><button type="submit" class="know-cost-with">Узнайте стоимость со скидкой</button></form></td>
+          <td><form method="get" action="/reg"><button type="submit" class="know-cost-with">Узнайте стоимость со скидкой</button></form></td>
+          <td><form method="get" action="/reg"><button type="submit" class="know-cost-with">Узнайте стоимость со скидкой</button></form></td>
         </tr>
       </table>     
     </div>
@@ -679,10 +653,8 @@
         </p>
       </div>
       <div class="clear"></div>
-      <p class="text-center">
-        <button class="get-free-consultation-b">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ ПО ВОЗВРАТУ</button>
-      </p>
-    </div>
+         <form method="get" action="/reg"><p class="text-center"><button type="submit" class="get-free-consultation-b">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ ПО ВОЗВРАТУ</button></p></form>
+     </div>
   </div>
 </section>
 <section class="watch-to-results">
@@ -715,9 +687,7 @@
         </div>
       </div>
     </div>
-    <p class="text-center">
-      <button class="want-too">Хочу также</button>
-    </p>
+   <form method="get" action="/reg"><p class="text-center"><button type="submit" class="want-too">Хочу также</button></p></form>
   </div>
 </div>
 </section>
@@ -725,27 +695,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-6">
-        <form action="" class="bottom-input">
-          <div class="form-group">
-            <p>
-              <input type="text" class="form-control" placeholder="Ваш Email (для ответа)">
-            </p>
-          </div>
-          <div class="form-group">
-            <p>
-              <input type="text" class="form-control" placeholder="Ваш телефон (для консультации)">
-            </p>
-          </div>
-          <div class="form-group">
-            <p>
-              <textarea name="" id="" placeholder="Напишите свой вопрос"></textarea>
-            </p>
-          </div>
-          <div class="getanswer">
-            <div class="capcha"></div>
-            <div><button class="get-answer-bottom">Получить Ответ</button></div>
-          </div>
-        </form>
+      <?=getAnswer();?>  
       </div>
       <div class="col-lg-6 col-md-6"></div>
     </div>
