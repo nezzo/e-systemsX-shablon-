@@ -1,5 +1,12 @@
 <?php
 
+
+//если пользователь захочет зайти в админку по ссылкам wp-login, wp-admin то  будет редирект в аккаунт
+if ( !current_user_can( 'manage_options' ) && is_user_logged_in() && is_admin() ) {
+  wp_redirect('/account/', 301);
+}
+
+
 //set_mail($email, $title, $mess)
 
 //отправка письма админу из формы бесплатная консультация
@@ -26,10 +33,7 @@ function consultant_form_1(){
                  <div class="form-group">
                    <input type="text" name="phone_consultation_1" class="form-control" placeholder="Ваш телефон (для оказание консультации)">
                  </div>
-                 <div class="form-group">
-                   <div class="g-recaptcha" data-sitekey="6Leu-TUUAAAAAJDBfWVG3ARyrfoN62T0TudkptLp"></div>
-                 </div>
-                 <div class="form-group">
+		 <div class="form-group">
                   <button class="btn btn-danger how-to-back">Узнать, как вернуть ваши деньги</button>
                  </div>
                </form>
@@ -62,10 +66,7 @@ function consultant_form_2(){
                  <div class="form-group">
                    <input type="text" name="phone_consultation_2" class="form-control" placeholder="Ваш телефон (для оказание консультации)">
                  </div>
-                 <div class="form-group">
-                   <div class="g-recaptcha" data-sitekey="6Leu-TUUAAAAAJDBfWVG3ARyrfoN62T0TudkptLp"></div>
-                 </div>
-                 <div class="form-group">
+		 <div class="form-group">
                   <button class="btn btn-danger how-to-back">Узнать, как вернуть ваши деньги</button>
                  </div>
                </form>
@@ -117,7 +118,7 @@ function getAnswer(){
         </form>
   
   ';
-
-
 }
+
+
 

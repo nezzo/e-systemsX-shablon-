@@ -1,4 +1,3 @@
-
 <?php get_header();?>
       <div id="wrapper">
         <header class="header">
@@ -729,8 +728,3 @@
 
 </div>
 <?php get_footer();?>
-
-
-
-
-

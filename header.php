@@ -20,5 +20,17 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
       <?php wp_head(); ?>
+      <?php
+	/* Отключаем админ панель для всех, кроме администраторов. */
+	if (!current_user_can('administrator')):
+	  show_admin_bar(false);
+	  ?>
+	  <style>
+	  html { margin-top: 0px !important; }
+	  </style>
+	  <?php
+	endif;
+      
+      ?>
     </head>
     <body>
